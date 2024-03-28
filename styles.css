@@ -1,0 +1,89 @@
+body{
+  background-color: lightblue;
+  font-family: Georgia;
+}
+
+h1{
+  text-align: center;
+  font-family: "serif";
+  font-style: bold;
+  font-size: 40;
+  padding-top: 20px;
+}
+
+p{
+  font-style: Italic;
+  text-align: center;
+}
+
+#survey-form{
+  background-color: #322F5F;
+  color: #ffffff;
+  max-width: 600px;
+  text-align: left;
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid #3E9752;
+  border-radius: 5px;
+}
+#dropdown{
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 2px solid #322F5F;
+  border-radius: 5px;
+}
+
+fieldset{
+  border: none;
+}
+input{
+  width: 100%;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  border: 2px solid #322F5F;
+  border-radius: 5px;
+  padding: 5px;
+  color: black;
+}
+label{
+  text-align: left;
+  display: block;
+  margin-bottom: 10px;
+
+}
+
+textarea{
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 100px;
+  border: 2px solid #322F5F;
+  border-radius: 5px;
+}
+#submit{
+  background-color: #3E9752;
+  width:100%;
+  margin: 20px 0 10px 0;
+  padding: 10px;
+  border: 2px solid #3E9752;
+  border-radius: 5px;
+  font-size: 20;
+  color: white;
+}
+
+input[type="radio"],
+input[type="checkbox"]{
+  margin: 2px 0 0 2px;
+}
+
+hr{
+  border:2px solid #3E9752;
+}
+
+.inline{
+  display: inline;
+  width: unset;
+  margin: 0 5px 0 0;
+  
+}
